@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="#">Bayu Panoto</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:bayupranoto@usu.ac.id">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Bayu 👋</h2>
+        <p>a student who is interested in the world of technology, especially web development. I enjoy building websites, trying new things, and continuously improving my skills through various projects. I believe that learning while creating real work is the best way to grow.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#project">
+            <i class="fa-solid fa-rocket"></i>
+            <span>Project</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="assets/headshot.jpeg" alt="bayu's headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        I have basic skills in HTML, CSS, JavaScript, and PHP to build websites that are structured, responsive, interactive, and supported by simple backend functionality.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="assets/html.jpg" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="assets/css.jpg" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="assets/js.png" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="assets/phpjpeg.jpeg" alt="php logo">
+          <span>PHP</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: Project -->
+    <section id="project" class="project-section">
+      <h2>Project</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="assets/project.png">
+          <p>Bayu Panoto</p>
+          <p>17 Coffee</p>
+        </div>
+
+        <div class="text">
+          "17 COFFEE is a web-based application built with PHP and MySQL for managing and ordering food and beverage menus digitally. It helps streamline data management and transactions, making the process faster, more practical, and well-organized."
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:bayupranoto@usu.ac.id">Email</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon linkedin-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button id="scrollTopBtn" title="Go to top">
+  <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <footer>© 2026 copyright</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
