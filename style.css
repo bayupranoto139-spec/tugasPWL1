@@ -43,6 +43,14 @@ nav .left a {
   font-weight: 600;
 }
 
+nav .left img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 50px;
+  margin-bottom: -10px;
+}
+
 nav .right a {
   color: var(--text-color);
   margin: 0 10px;
